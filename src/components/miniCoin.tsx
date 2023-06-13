@@ -36,7 +36,7 @@ interface MiniCoinProps {
 
 const MiniCoin: React.FC<MiniCoinProps> = ({ coin }) => {
   return (
-    <Link className=' flex-row justify-center items-center m-auto hover:translate-y-2 transition-transform' to={`/single/${coin.id}`}>
+    <Link className=' flex-row justify-center items-center m-auto hover:translate-y-2 transition-transform' to={`/coinworld/single/${coin.id}`}>
     <div className='flex flex-col items-center justify-center text-center'>
         <img className='mt-5' width={85} src={coin.image} alt="nome" />
         <div className='mt-4'>

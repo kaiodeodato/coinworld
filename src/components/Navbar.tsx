@@ -21,7 +21,7 @@ export default function Navbar() {
     >
 
       <div className="relative flex items-center flex-shrink-0  mr-6 bg">
-        <Link className="text-xl sm:text-4xl ml-8  bg-gradient-to-r from-red-500 to-blue-500 bg-clip-text  text-transparent" to="/">
+        <Link className="text-xl sm:text-4xl ml-8  bg-gradient-to-r from-red-500 to-blue-500 bg-clip-text  text-transparent" to="/coinworld">
           COIN<span className="text-blue-500">world</span>
         </Link>
       </div>

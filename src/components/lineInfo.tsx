@@ -37,7 +37,7 @@ interface LineInfoProps {
 
 const LineInfo: React.FC<LineInfoProps> = ({ coin }) => {
   return (
-    <Link  to={`/single/${coin.id}`}>
+    <Link  to={`/coinworld/single/${coin.id}`}>
 
         <div className='grid grid-cols-2 sm:w-full  gap-16  items-center justify-center hover:bg-indigo-800 pr-20 pl-2 sm:pl-6 py-7 rounded-lg '>
           
