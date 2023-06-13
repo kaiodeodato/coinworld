@@ -12,7 +12,7 @@ export default function Footer() {
   return (
     <div className='text-slate-100 flex items-center justify-center relative w-101  translate-y-20 sm:translate-y-0 z-0 mt-10'>
       {
-      location.pathname === '/coinworld' && 
+      (location.pathname).length < 12  && 
         <img className='absolute' src={vector1} alt="" />
       }
 

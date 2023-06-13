@@ -30,7 +30,7 @@ export default function Navbar() {
         </Link>
       </div>
 
-      { location.pathname === '/coinworld' && 
+      { (location.pathname).length < 12 && 
       <>
         <button
         type="button"
