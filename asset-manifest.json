@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/coinworld/static/css/main.d7b02a1d.css",
-    "main.js": "/coinworld/static/js/main.9337d73f.js",
+    "main.js": "/coinworld/static/js/main.ce039ace.js",
     "static/js/787.980b19c2.chunk.js": "/coinworld/static/js/787.980b19c2.chunk.js",
     "static/media/bitcoinhand.png": "/coinworld/static/media/bitcoinhand.11a990a3ed78d7920d6d.png",
     "static/media/bg-footer.png": "/coinworld/static/media/bg-footer.13429c580a1a23448949.png",
     "index.html": "/coinworld/index.html",
     "main.d7b02a1d.css.map": "/coinworld/static/css/main.d7b02a1d.css.map",
-    "main.9337d73f.js.map": "/coinworld/static/js/main.9337d73f.js.map",
+    "main.ce039ace.js.map": "/coinworld/static/js/main.ce039ace.js.map",
     "787.980b19c2.chunk.js.map": "/coinworld/static/js/787.980b19c2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d7b02a1d.css",
-    "static/js/main.9337d73f.js"
+    "static/js/main.ce039ace.js"
   ]
 }
