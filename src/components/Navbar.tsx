@@ -94,7 +94,7 @@ export default function Navbar() {
       {
      
       <div className="hidden sm:flex">
-        <span className='cursor-pointer mx-4 transition-colors text-white hover:text-red-400'>
+        <span className='cursor-pointer mx-4 transition-colors text-white hover:text-blue-400'>
           <BsDiscord size="25"/>
         </span>     
         <span className=' cursor-pointer mx-4 transition-colors text-white hover:text-red-400 '>
