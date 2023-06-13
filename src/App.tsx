@@ -60,8 +60,8 @@ function App() {
         <Navbar />
         <main className=' flex-1 text-white mt-20 z-10'>
           <Routes>
-            <Route path="/single/:id" element={<Single/>}/>
-            <Route path="/" element={<Home/>}/>
+            <Route path="/coinworld/single/:id" element={<Single/>}/>
+            <Route path="/coinworld" element={<Home/>}/>
           </Routes>
         </main>
 
