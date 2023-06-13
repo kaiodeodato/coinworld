@@ -8,12 +8,14 @@ import { Link, useLocation  } from 'react-router-dom';
 
 export default function Footer() {
   const location = useLocation();
+  console.log(location.pathname === '/coinworld/')
   return (
     <div className='text-slate-100 flex items-center justify-center relative w-101  translate-y-20 sm:translate-y-0 z-0 mt-10'>
       {
       location.pathname === '/coinworld' && 
         <img className='absolute' src={vector1} alt="" />
       }
+
       
       <div className='flex flex-col justify-center mt-32 mb-4'>
         <div className='relative flex justify-between mb-5'>

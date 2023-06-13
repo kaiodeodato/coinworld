@@ -12,6 +12,10 @@ export default function Navbar() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const falseMenu = () => {
+    setIsMenuOpen(false);
+  };
+
 
 
   return (
@@ -49,7 +53,7 @@ export default function Navbar() {
             <a
               href="#home"
               className="block py-2 pl-3 pr-4 transition-colors  hover:text-transparent bg-gradient-to-r from-red-500 to-blue-500 bg-clip-text"
-              onClick={toggleMenu}
+              onClick={falseMenu}
             >
               Home
             </a>
@@ -58,7 +62,7 @@ export default function Navbar() {
             <a
               href="#market"
               className="block  py-2 pl-3 pr-4 transition-colors  hover:text-transparent bg-gradient-to-r from-red-500 to-blue-500 bg-clip-text "
-              onClick={toggleMenu}
+              onClick={falseMenu}
             >
               Market
             </a>
@@ -67,7 +71,7 @@ export default function Navbar() {
             <a
               href="#choose"
               className="block py-2 pl-3 pr-4 transition-colors  hover:text-transparent bg-gradient-to-r from-red-500 to-blue-500 bg-clip-text "
-              onClick={toggleMenu}
+              onClick={falseMenu}
             >
               Choose Us
             </a>
@@ -76,7 +80,7 @@ export default function Navbar() {
             <a
               href="#join"
               className="block py-2 pl-3 pr-4 transition-colors  hover:text-transparent bg-gradient-to-r from-red-500 to-blue-500 bg-clip-text "
-              onClick={toggleMenu}
+              onClick={falseMenu}
             >
               Join
             </a>
