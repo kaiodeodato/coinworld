@@ -26,7 +26,7 @@ export default function Navbar() {
         </Link>
       </div>
 
-      { location.pathname === '/coinworld' && 
+      { location.pathname === '/coinworld' || '/coinworld/' && 
       <>
         <button
         type="button"
