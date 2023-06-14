@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/coinworld/static/css/main.1bd6593a.css",
-    "main.js": "/coinworld/static/js/main.8b27aa98.js",
+    "main.css": "/coinworld/static/css/main.521e3ba5.css",
+    "main.js": "/coinworld/static/js/main.b59a9a77.js",
     "static/js/787.980b19c2.chunk.js": "/coinworld/static/js/787.980b19c2.chunk.js",
     "static/media/bitcoinhand.png": "/coinworld/static/media/bitcoinhand.11a990a3ed78d7920d6d.png",
     "static/media/bg-footer.png": "/coinworld/static/media/bg-footer.13429c580a1a23448949.png",
     "index.html": "/coinworld/index.html",
-    "main.1bd6593a.css.map": "/coinworld/static/css/main.1bd6593a.css.map",
-    "main.8b27aa98.js.map": "/coinworld/static/js/main.8b27aa98.js.map",
+    "main.521e3ba5.css.map": "/coinworld/static/css/main.521e3ba5.css.map",
+    "main.b59a9a77.js.map": "/coinworld/static/js/main.b59a9a77.js.map",
     "787.980b19c2.chunk.js.map": "/coinworld/static/js/787.980b19c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1bd6593a.css",
-    "static/js/main.8b27aa98.js"
+    "static/css/main.521e3ba5.css",
+    "static/js/main.b59a9a77.js"
   ]
 }
