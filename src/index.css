@@ -13,9 +13,9 @@ body{
     height: 8px;
   }
 *::-webkit-scrollbar-track {
-    background-color: var(--support-color-1); 
+    background-color: var(--support-color-1);
     border-radius: 4px;
-   
+
 }
 *::-webkit-scrollbar-thumb {
   background-color: #7f1d1d;
@@ -23,5 +23,56 @@ body{
 
 }
 *::-webkit-scrollbar-thumb:hover {
-    background-color: var(--text-color-2); 
+    background-color: var(--text-color-2);
+}
+
+
+.loading-box{
+  animation: giro 3s infinite ;
+
+  opacity: 0.8;
+}
+
+.litle{
+  animation: giro2 5s infinite ;
+
+  opacity: 0.5;
+
+}
+
+@keyframes giro {
+  0% {
+    scale: 1;
+    transform: rotate(45deg);
+  }
+  50%{
+    scale: 1.5;
+
+    transform: rotate(405deg);
+  }
+  100%{
+    scale: 1;
+
+    transform: rotate(45deg);
+  }
+
+}
+
+@keyframes giro2 {
+  0% {
+    scale: 1.2;
+
+    transform: rotate(0deg);
+  }
+  50%{
+    scale: 1;
+
+    transform: rotate(360deg);
+  }
+  100%{
+    scale: 1.2;
+
+    transform: rotate(0deg);
+  }
+
 }

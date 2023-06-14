@@ -41,7 +41,7 @@ const CoinSet: React.FC<CoinSetProps> = ({ coin }) => {
   const modifiedHTML = sanitizedHTML.replace(/<a/g, '<a class="transition-colors text-red-500 hover:text-red-300"');
 
   return (
-    <div className='flex flex-col sm:flex-row items-center justify-center text-center'>
+    <div className='flex flex-col mt-20 sm:flex-row items-center justify-center text-center'>
 
         <div className='mb-20 sm:mb-0 flex flex-col'>
           <img src={coin.image.large}></img>

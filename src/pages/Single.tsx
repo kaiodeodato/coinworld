@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { getCoinHistory } from '../api';
 import CoinSet from '../components/CoinSet';
+import Loading from '../components/loading';
+
+
 
 interface ImageInter {
   large: string,
@@ -49,7 +52,7 @@ export default function Single() {
 
   return (
     <div>
-      {coin && <CoinSet coin={coin} />}
+      {coin ? <CoinSet coin={coin} /> : <Loading/>}
     </div>
   );
 }
