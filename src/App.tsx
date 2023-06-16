@@ -56,7 +56,7 @@ function App() {
   return (
     <MyContext.Provider value={{ coins, setCoins }}>
       <Router> 
-      <div className=' flex flex-col h-screen items-center bg-indigo-1000 overflow-x-hidden'>
+      <div className='htmlclass flex flex-col h-screen items-center bg-indigo-1000 overflow-x-hidden'>
         <Navbar />
         <main className=' flex-1 text-white mt-20 z-10'>
           <Routes>

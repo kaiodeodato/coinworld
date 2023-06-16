@@ -36,11 +36,11 @@ export default function Navbar() {
         type="button"
         onClick={toggleMenu}
         className="block md:hidden focus:outline-none mr-8 text-slate-100 hover:text-red-400 transition-colors "
-      >
+        >
 
-        <GiHamburgerMenu size={30} />
+          <GiHamburgerMenu size={30} />
 
-      </button>
+        </button>
 
       <div
         className={`${
