@@ -8,4 +8,4 @@ In the project directory, you can run:
 
 ### `npm start`
 
-![Logo do Meu Projeto]([https://github.com/seu-usuario/seu-repositorio/raw/main/imagens/logo.png](http://www.portfolio.kaiodeodato.com/static/media/sitecoin.cf23ce70c282f1c49525.jpg)http://www.portfolio.kaiodeodato.com/static/media/sitecoin.cf23ce70c282f1c49525.jpg)
+![Logo do Meu Projeto](https://github.com/seu-usuario/seu-repositorio/raw/main/imagens/logo.png](http://www.portfolio.kaiodeodato.com/static/media/sitecoin.cf23ce70c282f1c49525.jpg)http://www.portfolio.kaiodeodato.com/static/media/sitecoin.cf23ce70c282f1c49525.jpg)
