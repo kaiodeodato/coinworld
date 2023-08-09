@@ -5,6 +5,8 @@ Coinworld is a website that allows users to search for information about various
 ### `live Demo:` [Open](https://kaiodeodato.github.io/coinworld/).
 
 ### Build with:
+» Typescript
+» React.js
  • Typescript
  • React.js
  • Tailwind
