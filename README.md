@@ -1,11 +1,19 @@
-# Getting Started with Create React App
+## About the project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Coinworld is a website that allows users to search for information about various cryptocurrencies in real-time. The website is designed to provide users with accurate and up-to-date information about the price, market cap, trading volume, and other key metrics of cryptocurrencies.
 
-## Available Scripts
+### `live Demo:` [Open](https://kaiodeodato.github.io/coinworld/).
 
-In the project directory, you can run:
+### Build with:
+ • Typescript
+ • React.js
+ • Tailwind
+ • Router Dom
+ • react-icons
+ • RestApi
+ • Json
+ • HTML5
+ • CSS3
 
-### `npm start`
-
-![Logo do Meu Projeto](http://www.portfolio.kaiodeodato.com/static/media/sitecoin.cf23ce70c282f1c49525.jpg)
+### Screenshots of the Project:
+![Screenshots](http://www.portfolio.kaiodeodato.com/static/media/sitecoin.cf23ce70c282f1c49525.jpg)
